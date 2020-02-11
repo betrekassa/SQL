@@ -1,5 +1,5 @@
 -- Deployment Instructions. 
--- The assumption is that you are using the supper user ìpostgresî else you will need to change the user with the one you are currently using who has similar privilege 
+-- The assumption is that you are using the supper user ‚Äúpostgres‚Äù else you will need to change the user with the one you are currently using who has similar privilege 
 -- The ER diagram is for the sake of completion 
 1. To create the database either run either option A or B.
 	A. go to your directory where you install your PostgreSQL using your command line and type 
@@ -18,3 +18,5 @@
 4. To select the records from the tables 
 	A. If you already set psql to your environmental variable 
 		psql -U postgres -d traffic_violation -f Queries.sql
+5. To Add primary & forign key. 
+	A. psql -U postgres -d traffic_violation -f Alter_tables.sql
