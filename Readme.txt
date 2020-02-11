@@ -20,3 +20,4 @@
 		psql -U postgres -d traffic_violation -f Queries.sql
 5. To Add primary & forign key. 
 	A. psql -U postgres -d traffic_violation -f Alter_tables.sql
+
